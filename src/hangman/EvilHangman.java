@@ -41,7 +41,7 @@ public class EvilHangman {
         System.out.println("Enter guess: ");
 
         var scanner = new Scanner(System.in);
-        boolean badInput = false;
+        boolean badInput;
         Set<String> result = null;
         do {
             String input = scanner.nextLine();
